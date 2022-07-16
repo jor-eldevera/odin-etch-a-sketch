@@ -5,6 +5,9 @@ let gridSize = 16;
 
 btn.addEventListener("click", (e) => {
     let newGridSize = prompt("How big should the grid be? Enter a number from 0 to 100.");
+    if (newGridSize > 100) {
+        newGridSize = 100;
+    }
     if (newGridSize) {
         gridSize = newGridSize;
     }

@@ -11,3 +11,18 @@
     background-color: lightgray;
     place-items: center;
 }
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 16px 0px;
+}
+
+footer {
+    color: lightgray;
+}
