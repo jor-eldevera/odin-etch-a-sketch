@@ -3,6 +3,8 @@
     grid-gap: 2px;
     grid-template-columns: repeat(16, 30px);
     grid-template-rows: repeat(16, 30px);
+    width: 550px;
+    height: 550px;
 }
 
 .squares-container div {
